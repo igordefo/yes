@@ -1,0 +1,16 @@
+.page-header {
+  padding-top: 20px;
+  background: url(../../img/header-bg.png) center bottom no-repeat;
+  min-height: 380px;
+}
+
+.page-header__wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contacts {
+  display: flex;
+  flex-direction: column;
+}
