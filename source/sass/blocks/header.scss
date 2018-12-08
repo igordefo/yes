@@ -14,3 +14,20 @@
   display: flex;
   flex-direction: column;
 }
+
+.contacts__call {
+  margin-top: 7px;
+  position: relative;
+  color: #f5112c;
+}
+
+.contacts__call::after {
+  width: 119px;
+  height: 2px;
+  background-color: #f5112c;
+  content: "";
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  opacity: .5;
+}

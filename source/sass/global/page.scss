@@ -24,6 +24,7 @@ html {
     font-family: $font;
     font-size: $font-size;
     line-height: $line-height;
+    letter-spacing: .05em;
     color: $font-color;
     background-color: $white;
   }
@@ -43,26 +44,6 @@ html {
     padding: 0;
     list-style: none;
   }
-
-  .container {
-    width: 90.625%;
-    max-width: 605px;
-    margin: 0 auto;
-   }
-
-   @media (min-width: 768px) {
-    .container {
-    width: 640px;
-    padding: 0 64px;
-    }
-   }
-
-   @media (min-width: 1200px) {
-    .container {
-    width: 960px;
-    padding: 0 120px;
-    }
-   }
 
   .visually-hidden {
     position: absolute;

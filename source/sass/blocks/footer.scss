@@ -1,0 +1,70 @@
+.page-footer {
+  padding-top: 55px;
+  padding-bottom: 61px;
+  text-align: center;
+  background-color: #f8f8f8;
+}
+
+.logo--footer, .adress {
+  margin-bottom: 20px;
+}
+
+.page-footer__info {
+  margin-bottom: 11px;
+}
+
+.icon-home {
+  margin-top: 20px;
+  margin-bottom: 27px;
+}
+
+.icon {
+  display: inline-block;
+  margin: 0 20px;
+}
+
+.icon-insta {
+  background-image: url(../../img/sprite.png);
+  background-position: -40px 0px;
+  width: 28px;
+  height: 28px;
+}
+.icon-ok {
+  background-image: url(../../img/sprite.png);
+  background-position: -68px 0px;
+  width: 19px;
+  height: 33px;
+}
+.icon-vk {
+  background-image: url(../../img/sprite.png);
+  background-position: 0px 0px;
+  width: 40px;
+  height: 23px;
+}
+.icon-yt {
+  background-image: url(../../img/sprite.png);
+  background-position: -1px -23px;
+  width: 27px;
+  height: 33px;
+}
+
+.contacts__cals {
+  margin-top: 15px;
+  position: relative;
+  color: #f5112c !important;
+}
+
+.contacts__call:hover {
+  text-decoration: none;
+}
+
+.contacts__cals::after {
+  width: 119px;
+  height: 2px;
+  background-color: #f5112c;
+  content: "";
+  position: absolute;
+  bottom: -4px;
+  left: 105px;
+  opacity: .5;
+}

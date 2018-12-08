@@ -1,0 +1,31 @@
+.shedule {
+  text-align: center;
+  background: url(../../img/big-ben.png) no-repeat left top;
+  padding-top: 420px;
+  margin-bottom: 50px;
+}
+
+.shedule__price {
+  display: block;
+  margin-top: 18px;
+  margin-bottom: 15px;
+  color: #f5112c;
+  font-size: 24px;
+  line-height: 24px;
+  font-weight: 300;
+  letter-spacing: 1.2px;
+}
+
+.shedule__text {
+  letter-spacing: 0px;
+  margin-bottom: 40px;
+}
+
+.shedule__week {
+  font-family: Gilroy Bold, Helvetica, sans-serif;
+  margin-bottom: 14px;
+}
+
+.shedule__item {
+  margin-bottom: 28px;
+}

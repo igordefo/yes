@@ -1,0 +1,49 @@
+.methods {
+  margin-bottom: 69px;
+  padding-top: 86px;
+  padding-bottom: 102px;
+  background: url(../../img/bg.png) center top;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+.methods__title {
+  color: #000000;
+  font-family: Gilroy Bold, Helvetica, sans-serif;
+  font-size: 30px;
+  line-height: 30px;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.methods__item {
+  margin-bottom: 40px;
+}
+
+.methods__heading {
+  margin: auto;
+  position: relative;
+  width: max-content;
+  margin-top: 40px;
+  margin-bottom: 13px;
+  font-family: Gilroy Bold, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.methods__heading::before {
+  
+}
+
+.methods__heading b {
+  position: absolute;
+  top: -3px;
+  left: -37px;
+  font-size: 35px;
+  color: #f5112c;
+}
+
+.methods__dsecription {
+  margin-bottom: 25px;
+}
